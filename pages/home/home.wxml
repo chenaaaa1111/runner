@@ -1,0 +1,14 @@
+<view>
+      <swiper></swiper>
+</view>
+<view class='container'>
+<view class='titlebar'>
+    <text >热门推荐</text>
+    <text class='second fc999'>暴漫</text>
+    <text class='thir fc999'>生肖</text>
+    <text class='fs_24 fc999'>更多>></text>
+</view>
+    <image class="imgcover themimages" src='../../images/twive.png'></image>
+    <image src='../../images/iosfenge.png' class='fenge'></image>
+    <image class='bottomimage' src='../../images/baozoua.png'></image>
+</view>
