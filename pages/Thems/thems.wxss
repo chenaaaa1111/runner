@@ -1,0 +1,5 @@
+/* pages/Thems/thems.wxss */
+.container{
+  width: 100%;
+  padding: 20rpx ;
+}

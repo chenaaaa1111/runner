@@ -24,21 +24,22 @@
 			"current": -1,
 			"list": []
 		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
 		"game": {
 			"currentL": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
-					"name": "home",
-					"pathName": "pages/home/home"
+					"id": 0,
+					"name": "thems",
+					"pathName": "pages/Thems/thems",
+					"query": ""
 				}
 			]
 		}
