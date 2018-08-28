@@ -18,21 +18,21 @@
     "list": [
       {
         "pagePath": "pages/home/home",
-        "iconPath": "images/circle.png",
-        "selectedIconPath": "images/circle.png",
+        "iconPath": "images/icons/index_icon.png",
+        "selectedIconPath": "images/icons/index_icon_HL.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/logs/logs",
-        "iconPath": "images/bartitlesqual.png",
-        "selectedIconPath": "images/bartitlesqual.png",
-        "text": "接口"
+        "iconPath": "images/icons/sports_icon.png",
+        "selectedIconPath": "images/icons/sports_icon_HL.png",
+        "text": "运动"
       },
       {
         "pagePath": "pages/logs/logs",
-        "iconPath": "images/squallength.png",
-        "selectedIconPath": "images/squallength.png",
-        "text": "接口"
+        "iconPath": "images/icons/circle_icon.png",
+        "selectedIconPath": "images/icons/circle_icon_hl.png",
+        "text": "圈子"
       }
     ]
   }
