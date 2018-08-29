@@ -40,6 +40,12 @@
 					"name": "thems",
 					"pathName": "pages/Thems/thems",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "home",
+					"pathName": "pages/home/home",
+					"query": ""
 				}
 			]
 		}

@@ -1,5 +1,5 @@
 /* pages/home/home.wxss */
-@import "./../../commen/commen.wxss"
+@import "./../../commen/commen.wxss";
 .container {
   padding-left: 28rpx;
   padding-right: 28rpx;
@@ -12,10 +12,11 @@
 }
 .titlebar .second{
   margin-left: 120rpx;
-  margin-right: 40rpx;
+  margin-right: 19rpx;
 }
 .thir{
   margin-right: 195rpx;
+  margin-left: 20rpx;
 }
 .themimages{
   width: 100%;

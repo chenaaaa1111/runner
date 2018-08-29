@@ -5,9 +5,35 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+      dataList:[[{
+        cardImages:"./../../images/themsItem/squal.png",
+        starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
+      },
+        {
+          cardImages: "./../../images/themsItem/squal.png",
+          starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png']
+        }],
+        [{
+          cardImages: "./../../images/themsItem/squal.png",
+          starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
+        },
+          {
+            cardImages: "./../../images/themsItem/squal.png",
+            starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
+          }
+        ],
+        [{
+          cardImages: "./../../images/themsItem/squal.png",
+          starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
+        }
+        ]
+      ]
   },
-
+  goback:function(e){
+    wx.navigateBack({
+      delta: 1    
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,7 +1,8 @@
 <!--component/swiper.wxml-->
 <view>
-<swiper indicator-dots="{{indicatorDots}}"
+<swiper class='swiper-box' indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" indicatorDots="{{indicatorDots}}"
+  indicator-active-color="green"
    interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}" wx:key="{{index}}">
     <swiper-item>
