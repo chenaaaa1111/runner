@@ -10,22 +10,26 @@ Page({
         starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
       },
         {
-          cardImages: "./../../images/themsItem/squal.png",
+          cardImages: "./../../images/themsItem/squar2.png",
           starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png']
         }],
         [{
-          cardImages: "./../../images/themsItem/squal.png",
+          cardImages: "./../../images/themsItem/squal3.png",
           starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
         },
           {
-            cardImages: "./../../images/themsItem/squal.png",
+            cardImages: "./../../images/themsItem/squal5.png",
             starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
           }
         ],
         [{
-          cardImages: "./../../images/themsItem/squal.png",
+          cardImages: "./../../images/themsItem/s6.png",
           starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
-        }
+        },
+          {
+            cardImages: "./../../images/themsItem/s7.png",
+            starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
+          }
         ]
       ],
       dropUp:false,

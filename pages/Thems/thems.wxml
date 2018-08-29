@@ -17,7 +17,7 @@
     <view class='content'>
         <view class='cardContent' wx:for="{{dataList}}">
           <view class='card' wx:for="{{item}}">
-                 <image class="cardImage" src='./../../images/themsItem/squal.png'/>
+                 <image class="cardImage" src='{{item.cardImages}}'/>
                 <view class='level' >
                   <image wx:for="{{item.starImages}}" src='./../../images/themsItem/star.png'></image>               
                 </view>
