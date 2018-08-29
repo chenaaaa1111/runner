@@ -27,13 +27,19 @@ Page({
           starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
         }
         ]
-      ]
+      ],
+      dropUp:false,
+      dropDown:"",
+      easydropUp:true,
+      easydropDown:""
+      
   },
   goback:function(e){
     wx.navigateBack({
       delta: 1    
     })
   },
+
   /**
    * 生命周期函数--监听页面加载
    */

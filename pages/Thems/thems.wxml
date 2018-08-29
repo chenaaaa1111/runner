@@ -7,11 +7,11 @@
         </view>
         <view class='right'>
               <text class="hot">热门</text>
-                      <image class='dropup' src='./../../images/themsItem/drowUp.png'></image>
-              <image class='dropdow' src='./../../images/themsItem/dropDown.png'></image>              
+                      <image class='dropup' src="{{'./../../images/themsItem/'+(dropUp?'dropUp_s.png':'drowUp.png')}}"></image>
+              <image class='dropdow' src="{{'./../../images/themsItem/'+(dropUp?'drowDown.png':'dropDown_s.png')}}"></image>              
                 <text class="easy">简单</text>
-                 <image class='esaydropup' src='./../../images/themsItem/drowUp.png'></image>
-              <image class='esaydropdow' src='./../../images/themsItem/dropDown.png'></image> 
+                 <image class='esaydropup' src="{{'./../../images/themsItem/'+(easydropUp?'dropUp_s.png':'drowUp.png')}}"></image>
+              <image class='esaydropdow' src="{{'./../../images/themsItem/'+(easydropUp?'dropDown.png':'dropDown_s.png')}}"></image> 
         </view>   
     </view>
     <view class='content'>
