@@ -24,16 +24,16 @@
 			"current": -1,
 			"list": []
 		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
 		"plugin": {
 			"current": -1,
 			"list": []
 		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
 					"id": 0,
@@ -46,6 +46,11 @@
 					"name": "home",
 					"pathName": "pages/home/home",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "ranking",
+					"pathName": "pages/ranking/ranking"
 				}
 			]
 		}
