@@ -1,7 +1,8 @@
 {
   "pages":[
+    "pages/Friendslife/friendslife",
+    "pages/home/home",        
     "pages/index/index",
-    "pages/home/home",
     "pages/Thems/thems",
     "pages/logs/logs"
   ],
