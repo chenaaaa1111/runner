@@ -68,3 +68,6 @@ page,.body{
   margin-left: 50rpx;
   margin-right: 50rpx;
 }
+.boderbtom{
+  border-bottom: none;
+}
