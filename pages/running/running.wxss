@@ -1,1 +1,30 @@
 /* pages/running/running.wxss */
+.runningImage{
+   height: 690rpx;
+   width: 690rpx;
+}
+.imgContainer{
+  text-align: center;
+   padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.textContainer{
+  padding-left: 50rpx;
+}
+.for{
+  padding-left: 132rpx;
+}
+.them{
+  font-size: 32rpx;
+}
+.themafter{
+  padding-left: 160rpx;
+  font-size: 32rpx;
+}
+.runcontain{
+  display: flex;
+  padding-left: 50rpx;
+}
+.imass{
+  width: 320rpx;
+}

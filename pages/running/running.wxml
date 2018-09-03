@@ -1,2 +1,18 @@
 <!--pages/running/running.wxml-->
-<text>pages/running/running.wxml</text>
+<view class='imgContainer'>
+    <image class='runningImage'
+src='./../../images/running/runimage.png'></image>
+</view> 
+<view class='textContainer'>
+    <view class="them">为爱而跑</view>
+    <view class='for'>@</view>
+    <view class='themafter'>投其所好</view>
+</view>
+<view class='runcontain'>
+    <view class='flima'>
+        <image src="./../../images/running/runleft.png" class='imass'></image>
+    </view> 
+       <view class='flima'>
+        <image src="./../../images/running/runright.png" class='imass'></image>
+    </view>
+</view>
