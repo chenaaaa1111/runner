@@ -2,7 +2,8 @@
   "pages":[
     "pages/home/home",
     "pages/Friendslife/friendslife",
-     "pages/Thems/thems"
+     "pages/Thems/thems",
+     "pages/running/running"
   ],
   "subPackages": [
     {
