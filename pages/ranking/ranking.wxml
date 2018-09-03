@@ -15,7 +15,7 @@
                  <text class='eclipse'>...</text>
         </view>
     </view>
-      <view class='rankContainer'>
+      <view class='rankContainer nobottom'>
         <view class='number '>2</view>
         <image src='./../../images/ranking/dog.png' class='tx'></image>
         <view class='nameText'>不过如此</view>
