@@ -3,6 +3,7 @@
     "pages/Friendslife/friendslife",
     "pages/home/home",        
     "pages/index/index",
+     "pages/ranking/ranking",
     "pages/Thems/thems",
     "pages/logs/logs"
   ],

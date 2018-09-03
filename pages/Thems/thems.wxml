@@ -15,11 +15,11 @@
         </view>   
     </view>
     <view class='content'>
-        <view class='cardContent' wx:for="{{dataList}}">
+        <view class='cardContent' wx:for="{{dataList}}"  wx:key="{{index}}">
           <view class='card' wx:for="{{item}}">
                  <image class="cardImage" src='{{item.cardImages}}'/>
                 <view class='level' >
-                  <image wx:for="{{item.starImages}}" src='./../../images/themsItem/star.png'></image>               
+                  <image wx:for="{{item.starImages}}" wx:key="{{index}}"           src='./../../images/themsItem/star.png'></image>               
                 </view>
           </view>
           <view class='dashline'></view>
