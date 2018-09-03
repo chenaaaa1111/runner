@@ -1,10 +1,23 @@
 {
   "pages":[
-    "pages/index/index",
-     "pages/ranking/ranking",
     "pages/home/home",
-    "pages/Thems/thems",
-    "pages/logs/logs"
+    "pages/Friendslife/friendslife",
+     "pages/Thems/thems",
+     "pages/running/running"
+  ],
+  "subPackages": [
+    {
+      "root": "./pages/index",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "root": "./pages/ranking/",
+      "pages": [
+        "ranking"
+      ]
+    }
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -25,15 +38,15 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/Thems/thems",
         "iconPath": "images/icons/sports_icon.png",
         "selectedIconPath": "images/icons/sports_icon_HL.png",
         "text": "运动"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/Friendslife/friendslife",
         "iconPath": "images/icons/circle_icon.png",
-        "selectedIconPath": "images/icons/circle_icon_hl.png",
+        "selectedIconPath": "images/icons/circle_icon_HL.png",
         "text": "圈子"
       }
     ]
