@@ -14,6 +14,9 @@
 .for{
   padding-left: 132rpx;
 }
+.flima{
+  position: absolute;
+}
 .them{
   font-size: 32rpx;
 }
@@ -23,8 +26,54 @@
 }
 .runcontain{
   display: flex;
+  position: relative;
   padding-left: 50rpx;
+  margin-top: 20rpx;
 }
 .imass{
-  width: 320rpx;
+  width: 361rpx;
+  height:300rpx;
+}
+ .right{
+  position: absolute;
+  right: 30rpx;
+}
+.number{
+  position: absolute;
+  left: 40rpx;
+  top: 60rpx;
+   font-size: 40rpx;
+  color: #fff;
+}
+.numberright{
+  right: 80rpx;
+  top: 60rpx;
+  position: absolute;
+}
+.tNuber{
+  margin-top: 40rpx;
+  font-size: 40rpx;
+  color: #fff;
+}
+.runnumber{
+  font-size: 40rpx;
+  color: #fff;
+}
+.baposition{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 1374rpx;
+}
+.textform{
+  width: 300rpx;
+  height: 80rpx;
+}
+.bottomView{
+  margin-top: 330rpx;
+  padding-left:50rpx;
+}
+.textimage{
+  margin-left:30rpx;
 }
