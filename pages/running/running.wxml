@@ -1,4 +1,5 @@
 <!--pages/running/running.wxml-->
+
 <view class='imgContainer'>
     <image class='runningImage'
 src='./../../images/running/runimage.png'></image>

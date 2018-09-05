@@ -1,32 +1,18 @@
-// pages/running/running.js
+// pages/forwho/forwho.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.login({
-      success(res){
-        console.log(res);
-      }
-    })
-    wx.getWeRunData({
-      success(res) {
-        const encryptedData = res.encryptedData;
-        var iv=res.iv;
-        console.log(res);
-        var sendData={
-          iv: iv
-        }
-      }
-    })
+  
   },
 
   /**

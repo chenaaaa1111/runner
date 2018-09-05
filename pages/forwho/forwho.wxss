@@ -1,0 +1,14 @@
+/* pages/forwho/forwho.wxss */
+.bgi{
+  position: absolute;
+  width: 100%;
+  height: 1800rpx;
+  z-index: -1;
+}
+.containerimages{
+  padding-left: 50rpx;
+}
+.bgsmall{
+  width: 280rpx;
+  height: 180rpx;
+}

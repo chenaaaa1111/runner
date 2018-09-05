@@ -1,0 +1,8 @@
+<!--pages/forwho/forwho.wxml-->
+<view class='bg'>
+    <image class='bgi' src='./../../images/forwho/backgrud.png'>  
+    </image>
+    <view class='containerimages'>
+       <image src='./../../images/forwho/1@2x.png' class='bgsmall' ></image>
+    </view>
+</view> 

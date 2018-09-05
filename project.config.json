@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wx9317b47037473512",
-	"projectname": "runner",
+	"projectname": "runnersvn",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
@@ -24,16 +24,16 @@
 			"current": -1,
 			"list": []
 		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
-			"current": 2,
+			"current": 4,
 			"list": [
 				{
 					"id": 0,
@@ -51,6 +51,18 @@
 					"id": 2,
 					"name": "ranking",
 					"pathName": "pages/running/running",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "为谁跑",
+					"pathName": "pages/forwho/forwho",
 					"query": ""
 				}
 			]

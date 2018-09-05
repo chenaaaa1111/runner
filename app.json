@@ -1,17 +1,15 @@
 {
   "pages":[
+    "pages/index/index",
+    "pages/forwho/forwho",
     "pages/home/home",
     "pages/Friendslife/friendslife",
      "pages/Thems/thems",
-     "pages/running/running"
+     "pages/running/running",
+     "pages/test/test",
+     "pages/logs/logs"
   ],
   "subPackages": [
-    {
-      "root": "./pages/index",
-      "pages": [
-        "index"
-      ]
-    },
     {
       "root": "./pages/ranking/",
       "pages": [
@@ -50,5 +48,9 @@
         "text": "圈子"
       }
     ]
+  },
+  "usingComponents": {
+    "login":"./component/login/index"
   }
+
 }

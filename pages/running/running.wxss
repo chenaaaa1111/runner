@@ -13,16 +13,19 @@
 }
 .for{
   padding-left: 132rpx;
+  color: #fff;
 }
 .flima{
   position: absolute;
 }
 .them{
   font-size: 32rpx;
+  color: #fff;
 }
 .themafter{
   padding-left: 160rpx;
   font-size: 32rpx;
+  color: #fff;
 }
 .runcontain{
   display: flex;
