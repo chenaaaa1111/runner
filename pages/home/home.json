@@ -2,8 +2,5 @@
   "navigationBarTitleText": "运动大咖",
   "usingComponents": {
     "swiper": "./../../component/swiper/swiper"
-  }
-  
- 
-  
+  } 
 }
