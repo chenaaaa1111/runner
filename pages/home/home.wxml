@@ -1,5 +1,5 @@
 <view>
-      <swiper swiperList="{{}}"></swiper>
+      <swiper swiperList="{{swiperList}}"></swiper>
 </view>
 <view class='container'>
 <view class='titlebar'>

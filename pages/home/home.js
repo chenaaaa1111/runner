@@ -17,11 +17,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var self=this;
     requestbaner({},function(res){
-        console.log('res',res);
+        console.log('res',res.data.data2);
+        self.setData({
+          swiperList: res.data.data2
+        })
         for(var i in res.data.data){
             console.log(res.data.data[i]);
-
         }
     },'GET')
   },
