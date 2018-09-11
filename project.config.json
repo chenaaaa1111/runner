@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 3,
 			"list": [
 				{
 					"id": 0,
@@ -50,7 +50,7 @@
 				{
 					"id": 2,
 					"name": "ranking",
-					"pathName": "pages/running/running",
+					"pathName": "pages/ranking/ranking",
 					"query": ""
 				},
 				{
@@ -63,6 +63,12 @@
 					"id": 4,
 					"name": "为谁跑",
 					"pathName": "pages/forwho/forwho",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "running",
+					"pathName": "pages/running/running",
 					"query": ""
 				}
 			]
