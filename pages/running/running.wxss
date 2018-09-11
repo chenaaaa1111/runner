@@ -2,30 +2,46 @@
 .runningImage{
    height: 690rpx;
    width: 690rpx;
+   border: none;
+}
+.none{
+  display:block; 
+}
+.canvas{
+  position: absolute;
+  top: 0rpx;
+  left: 29rpx;
+  width:690rpx;
+  height: 690rpx;
+  border:none;
 }
 .imgContainer{
   text-align: center;
    padding-left: 30rpx;
   padding-right: 30rpx;
+  border: none;
+  font-size: 0;
+  height: 690rpx;
 }
 .textContainer{
   padding-left: 50rpx;
+  color: #666;
 }
 .for{
   padding-left: 132rpx;
-  color: #fff;
+  color: #666;
 }
 .flima{
   position: absolute;
 }
 .them{
   font-size: 32rpx;
-  color: #fff;
+  color: #666;
 }
 .themafter{
   padding-left: 160rpx;
   font-size: 32rpx;
-  color: #fff;
+  color: #666;
 }
 .runcontain{
   display: flex;
@@ -79,4 +95,16 @@
 }
 .textimage{
   margin-left:30rpx;
+}
+#canvasbg{
+  width: 690rpx;
+  height: 690rpx;
+  position: relative;
+}
+.bg{
+  position: relative;
+  left: 0;
+   width:690rpx;
+   height: 690rpx;
+   border:none;
 }

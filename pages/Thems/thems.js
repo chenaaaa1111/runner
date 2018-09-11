@@ -7,7 +7,9 @@ Page({
   data: {
       dataList:[[{
         cardImages:"./../../images/themsItem/squal.png",
-        starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png']
+        starImages: ['./../../images/themsItem/star.png', './../../images/themsItem/star.png', './../../images/themsItem/star.png'
+          , './../../images/themsItem/star.png', './../../images/themsItem/star.png'
+        ]
       },
         {
           cardImages: "./../../images/themsItem/squar2.png",
@@ -43,7 +45,11 @@ Page({
       delta: 1    
     })
   },
-
+  goTorun:function(e){
+    wx.navigateTo({
+      url: './../running/running',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

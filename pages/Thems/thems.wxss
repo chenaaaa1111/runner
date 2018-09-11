@@ -96,13 +96,13 @@
 }
 .level{
   position: absolute;
-  bottom: 30rpx;
+  bottom: 41rpx;
   left: 73rpx;
   display: flex;
   width: 100%;
 }
 .level image{
-  width: 40rpx;
-  height: 40rpx;
+  width: 24rpx;
+  height: 24rpx;
   margin-left: 10rpx;
 }

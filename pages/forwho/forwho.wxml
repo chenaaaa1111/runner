@@ -1,8 +1,86 @@
+
 <!--pages/forwho/forwho.wxml-->
 <view class='bg'>
     <image class='bgi' src='./../../images/forwho/backgrud.png'>  
     </image>
-    <view class='containerimages'>
-       <image src='./../../images/forwho/1@2x.png' class='bgsmall' ></image>
+
+    <view class='header'>
+        今日为 <text class="friend">朋友</text> <text class='text2'> 而跑 @ </text><text class='desc'>刘德华华仔华仔huahua</text> 
+     
     </view>
+    <view class='containerimages'>
+        <view class='itemimg'>
+                <image src='./../../images/forwho/1@2x.png' class='bgsmall' ></image>
+         <text>事业</text>
+        </view>
+        <view class='itemimg middle'>
+                <image src='./../../images/forwho/2@2x.png' class='bgsmall' ></image>
+                 <text>朋友</text>
+        </view>
+        <view class='itemimg'>
+                <image src='./../../images/forwho/3@2x.png' class='bgsmall' ></image>
+               <text>健康</text>  
+        </view>
+    </view>
+    <view class='containerimages'>
+        <view class='itemimg'>
+                <image src='./../../images/forwho/4@2x.png' class='bgsmall' ></image>
+                 <text>无所事事</text>
+        </view>
+        <view class='itemimg middle'>
+                <image src='./../../images/forwho/5@2x.png' class='bgsmall' ></image>
+               <text>未来</text>  
+        </view>
+        <view class='itemimg'>
+                <image src='./../../images/forwho/6@2x.png' class='bgsmall' ></image>
+             <text>明天</text>    
+        </view>
+    </view>
+    <view class='containerimages'>
+        <view class='itemimg'>
+                <image src='./../../images/forwho/7@2x.png' class='bgsmall' ></image>
+ <text>没压力</text>
+        </view>
+        <view class='itemimg middle'>
+                <image src='./../../images/forwho/8@2x.png' class='bgsmall' ></image>
+             <text>工作</text>    
+        </view>
+        <view class='itemimg'>
+                <image src='./../../images/forwho/9@2x.png' class='bgsmall' ></image>
+             <text>幸福</text>    
+        </view>
+    </view>
+     <view class='containerimages'>
+        <view class='itemimg'>
+                <image src='./../../images/forwho/10@2x.png' class='bgsmall' ></image>
+ <text>家人</text>
+        </view>
+        <view class='itemimg middle'>
+                <image src='./../../images/forwho/11@2x.png' class='bgsmall' ></image>
+             <text>爱情</text>    
+        </view>
+        <view class='itemimg'>
+                <image src='./../../images/forwho/12@2x.png' class='bgsmall' ></image>
+              <text>自定义</text>   
+        </view>
+    </view>
+    <view class='loucontainer'>
+        <view class='louimage'>
+            <image class="leftbig"          src='./../../images/forwho/rounda.png'></image>
+        </view>
+         <view class='louimage'>
+            <image class="rightimg"         src='./../../images/forwho/speack.png'></image>
+        </view>
+    </view>
+    <view  class='loucontainer potell'>
+        <view class='tell'>
+            <image class='teimg' src='./../../images/forwho/tell.png'></image>
+            <text class='she'> 他? 她? 它? </text>
+        </view>
+    </view> 
+    <view class='bottomView'>
+          <image class='imgbutton makesue'   src="./../../images/forwho/makesure.png"  ></image>
+            <image class=' imgbutton'  src="./../../images/forwho/tiaoguo.png"  ></image>
+    </view> 
+
 </view> 

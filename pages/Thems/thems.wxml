@@ -16,7 +16,7 @@
     </view>
     <view class='content'>
         <view class='cardContent' wx:for="{{dataList}}"  wx:key="{{index}}">
-          <view class='card' wx:for="{{item}}">
+          <view class='card' wx:for="{{item}}" bindtap='goTorun'>
                  <image class="cardImage" src='{{item.cardImages}}'/>
                 <view class='level' >
                   <image wx:for="{{item.starImages}}" wx:key="{{index}}"           src='./../../images/themsItem/star.png'></image>               

@@ -1,8 +1,14 @@
 <!--pages/running/running.wxml-->
 
 <view class='imgContainer'>
-    <image class='runningImage'
-src='./../../images/running/runimage.png'></image>
+    <!-- <image class='runningImage'
+src='./../../images/running/twive/react/20395594_xxl.jpg'></image> -->
+   <!--carvas  -->
+   <view  class='{{showbg? "":"none"}}'>
+         <canvas canvas-id="canvasbg" style='border:none' class="bg"  />
+   </view>
+  
+    <canvas canvas-id="myCanvas" class='canvas'  style='border:none' />
 </view> 
 <view class='textContainer'>
     <view class="them">为爱而跑</view>
@@ -14,7 +20,7 @@ src='./../../images/running/runimage.png'></image>
         <image src="./../../images/running/runleft.png" class='imass'></image>
         <view class='number'>
              <view class='runnumber'>
-              12200步
+              {{totolNum}}
               </view>
               <view class='tNuber'>
                 今日步数
@@ -30,7 +36,7 @@ src='./../../images/running/runimage.png'></image>
               下一目标
             </view>
             <view class='tNuber'>
-                －345步
+                -{{nextnum}}
             </view>
        </view>
 </view>

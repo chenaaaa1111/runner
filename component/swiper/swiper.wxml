@@ -4,7 +4,7 @@
   autoplay="{{autoplay}}" indicatorDots="{{indicatorDots}}"
   indicator-active-color="green"
    interval="{{interval}}" duration="{{duration}}">
-  <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+  <block wx:for="{{swiperList}}" wx:key="{{index}}">
     <swiper-item>
       <image src="{{item}}" class="slide-image" width="355" height="150"/>
     </swiper-item>

@@ -1,14 +1,15 @@
 // pages/home/home.js
+import { requestbaner, req} from './../../utils/request.js';
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-     
+    swiperList:[]
   },
   gotoThems:function(e){
-      wx.navigateTo({
+      wx.switchTab({
         url: './../Thems/thems',
       })
   },
@@ -16,7 +17,13 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
+    requestbaner({},function(res){
+        console.log('res',res);
+        for(var i in res.data.data){
+            console.log(res.data.data[i]);
+
+        }
+    },'GET')
   },
 
   /**

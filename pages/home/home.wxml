@@ -1,5 +1,5 @@
 <view>
-      <swiper></swiper>
+      <swiper swiperList="{{}}"></swiper>
 </view>
 <view class='container'>
 <view class='titlebar'>
@@ -9,7 +9,7 @@
     <text class='thir fc999' bindtap='gotoThems' data-val="sx">生肖</text>
     <text class='fs_24 fc999' >更多>></text>
 </view>
-    <image class="imgcover themimages" src='../../images/twive.png'></image>
+  <image class="imgcover themimages" src='../../images/twive.png' bindtap='gotoThems'></image>
     <image src='../../images/iosfenge.png' class='fenge'></image>
     <image class='bottomimage' src='../../images/baozoua.png'></image>
 </view>

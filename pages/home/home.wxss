@@ -29,3 +29,6 @@
 .bottomimage{
   width: 100%;
 }
+.runnavigator{
+  height: 350rpx;
+}

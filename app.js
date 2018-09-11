@@ -1,4 +1,6 @@
 //app.js
+import request from 'utils/request.js'
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -10,7 +12,16 @@ App({
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
-        console.log('login',res);
+        console.log(res);
+        wx.setStorageSync('jscode', res.code);//存储code
+        request.requestLogin({ 'jscode': res.code, 'name': '天狼星', 'photo':"https://wx.qlogo.cn/mmopen/vi_32/AYCIZYjDO4V1f4OsUH7L3xBX9SibibjKO0NZ60UEd6XMicEC7vmGEV2TslJmGBtibUUDKDwR5NiaLGjEFEUJiaLDX30g/132"},
+        function(res){
+          console.log('sessionid',res.data.data.sessionid);
+          var sessionId = res.data.data.sessionid;
+          wx.setStorageSync('sessionId', sessionId);
+          wx.setStorageSync('token', res.data.data.token)
+
+        });
       }
     })
     // 获取用户信息
@@ -22,7 +33,7 @@ App({
             success: res => {
               // 可以将 res 发送给后台解码出 unionId
               this.globalData.userInfo = res.userInfo
-
+              console.log(res.userInfo)
               // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
               // 所以此处加入 callback 以防止这种情况
               if (this.userInfoReadyCallback) {

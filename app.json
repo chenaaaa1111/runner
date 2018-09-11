@@ -7,15 +7,8 @@
      "pages/Thems/thems",
      "pages/running/running",
      "pages/test/test",
-     "pages/logs/logs"
-  ],
-  "subPackages": [
-    {
-      "root": "./pages/ranking/",
-      "pages": [
-        "ranking"
-      ]
-    }
+     "pages/logs/logs",
+     "pages/ranking/ranking"
   ],
   "window":{
     "backgroundTextStyle":"light",
