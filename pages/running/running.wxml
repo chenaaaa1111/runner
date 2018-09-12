@@ -11,9 +11,9 @@ src='./../../images/running/twive/react/20395594_xxl.jpg'></image> -->
     <canvas canvas-id="myCanvas" class='canvas'  style='border:none' />
 </view> 
 <view class='textContainer'>
-    <view class="them">为爱而跑</view>
+    <view class="them">{{forwhat}}</view>
     <view class='for'>@</view>
-    <view class='themafter'>投其所好</view>
+    <view class='themafter'>{{forwhom}}</view>
 </view>
 <view class='runcontain'>
     <view class='flima'>

@@ -6,7 +6,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    swiperList:[]
+    swiperList:[],
+    xingzuo:'',
+    shengxiao:''
   },
   gotoThems:function(e){
       wx.switchTab({
@@ -19,9 +21,13 @@ Page({
   onLoad: function (options) {
     var self=this;
     requestbaner({},function(res){
-        console.log('res',res.data.data2);
+        console.log('res',res.data.data);
+        var xingzuo = res.data.data['sx'];
+        var elsee=res.data.data['xz']
         self.setData({
-          swiperList: res.data.data2
+          swiperList: res.data.data2,
+          xingzuo: xingzuo,
+          shengxiao: elsee
         })
         for(var i in res.data.data){
             console.log(res.data.data[i]);

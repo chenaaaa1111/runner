@@ -3,7 +3,7 @@ function request(sendData,url){
 }
 function requestLogin(data,callback){
     wx.request({
-      url: 'http://106.14.153.111:8080/sport/user/user		'	,	
+      url: 'http://106.14.153.111:8080/sport/user/user',	
       data: data,
       method:"GET",
       success:function(res){
@@ -70,7 +70,24 @@ function Req(){
    //添加为谁而跑
    request('/sport/forRun/addrun', sendData, callBack, "Get");
  }
- 
+ this.requestThenms = function (sendData, callBack) {
+   //添加为谁而跑
+   request('/sport/meal/all', sendData, callBack, "Get");
+ }
+ this.requestrunImage = function (sendData, callBack){
+   request('/sport/meal/xz', sendData, callBack, "Get");
+ }
+ //获取跑步的图片
+  this.requestImageRun = function (sendData, callBack){
+    request('/sport/forRun/sm', sendData, callBack, "Get");
+ }
+  this.reqaddforwho = function (sendData, callBack) {
+    request('/sport/forRun/addrun', sendData, callBack, "Get");
+  }
+  this.reqaddImage = function (sendData, callBack) {
+    //添加套餐
+    request('/sport/meal/gorun', sendData, callBack, "Get");
+  }
 }
 var req = new Req();
  module.exports={

@@ -3,12 +3,13 @@
     "pages/index/index",
     "pages/forwho/forwho",
     "pages/home/home",
-    "pages/Friendslife/friendslife",
      "pages/Thems/thems",
      "pages/running/running",
      "pages/test/test",
      "pages/logs/logs",
-     "pages/ranking/ranking"
+     "pages/ranking/ranking",
+     "pages/Friendslife/friendslife"
+            
   ],
   "window":{
     "backgroundTextStyle":"light",
